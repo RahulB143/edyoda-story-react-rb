@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;900&display=swap');
+/*-------------------------------- Header-css  --------------------------------------------------------- */
+#header {
+	padding: 0px 78px;
+	background-color: #fff;
+	overflow: hidden;
+	margin: 0 auto;
+	/* box-shadow: 0px 0.4px 0.1px 0px gray; */
+	position: fixed;
+	width: 100%;
+	top: 0;
+	/* z-index: 11; */
+	box-shadow: 0 1px 1px #ccc;
+	
+	
+
+}
+
+#logo {
+	width: 130px;
+	font-size: 36px;
+	color: #0084ff;
+	font-weight: 900;
+	font-family: Raleway, sans-serif;
+
+}
+
+#logostoriestext {
+	margin: 0px;
+	font-weight: 200;
+	font-family: 'Raleway', sans-serif;
+	font-style: italic;
+	color: #000;
+	letter-spacing: 1px;
+	line-height: 0.5;
+}
+#dropdowntext{
+	color: #000;
+	margin-top: 8px;
+	margin-left: 20px;
+}
+.navbar{
+	float: left;
+	padding: 15px;
+	margin-right: 15px;
+	cursor: pointer;
+}
+.right{
+	
+	float: right;
+	display: flex;
+	margin-right: 150px;
+}
+.right >p{
+	padding-right: 100px;
+	color: #b4adad;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	font-weight: 500;
+	letter-spacing: 1px;
+	margin-top: 5px;
+}
+.right >button{
+	padding: 6px 24px;
+	width: 180px;
+	height: 50px;
+	border-radius: 50px;
+	color: #fff;
+	background-color: #0084ff;
+	border: none;
+	cursor: pointer;
+}
+#container{
+	 margin: 5px 15px;
+ }
+/*--------------------------------------------- Categories-css -------------------------------------------------------------- */
+body {
+	background-color: #f2f6ff;
+	font-family: 'Raleway', sans-serif;
+}
+
+#bodycontainer {
+	background-color: #f2f6ff;
+	margin-top: 90px;
+	
+}
+
+#categoriescontainer {
+	width: 70%;
+	font-size: 16px;
+	padding-top: 16px;
+	margin: 20px auto;
+	margin-bottom: 120px;
+
+}
+
+#heading {
+	color: #000;
+	font-weight: 600;
+	font-size: 36px;
+	margin: 0;
+
+}
+#heading1 {
+	color: #000;
+	font-weight: 600;
+	margin: 15px 5px;
+
+}
+.trendongPosts{
+	display: flex;
+	
+}
+.leftpost >img{
+	margin-right: 20px;
+	margin-top: 15px;
+	border-radius: 10px;
+	height: 460px;
+	width: 720px;
+
+}
+.rightpost > img{
+	height: 210px;
+	width: 310px;
+	display: block;
+	margin-bottom: 15px;
+	border-radius: 10px;
+	margin-top: 15px;
+
+}
+
+#filtertext {
+	font-size: 14px;
+	font-weight: 600;
+	margin-left: 8px;
+}
+
+.categories {
+	padding: 5px 14px;
+	width: auto;
+	color: #0084ff;
+	border-radius: 15px;
+	border: 1px solid #0084ff;
+	margin: 5px;
+	cursor: pointer;
+	float: left;
+
+}
+
+#icon {
+	color: #0084ff;
+	padding-right: 10px;
+
+}
+
+.categories:hover {
+	color: #fff;
+	background-color: #0084ff;
+}
+
+#container1 {
+	margin: 0px 16.3%;
+}
+
+
+
+
+---------------------------------------------------items Blog Cards- css --------------------------------------------------------*/ .categorie {
+	margin: 60px;
+	padding-top: 20px;
+	margin-bottom: 10px;
+
+}
+
+.row {
+	display: inline-flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 65%;
+	margin-left: 250px;
+}
+
+.col-3 {
+	flex-basis: 33.3%;
+	max-width: 310px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	border: 1px solid #92d8df;
+	border-radius: 5px;
+	/* box-shadow: 0px 3px  10px 0px gray; */
+	box-shadow: 3px 3px 6px gray;
+
+
+}
+
+.image {
+	width: 100%;
+	height: 176px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+
+}
+
+.title {
+	font-size: 18px;
+	text-align: left;
+	margin: 0;
+	font-weight: 550;
+	color: #000;
+}
+
+.authorcontainer {
+	padding-top: 4px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.43;
+	color: rgba(0, 0, 0, 0.6);
+	margin: 4px 0px;
+	padding: 10px 24px;
+}
+
+.author {
+	color: #0096ff;
+	font-size: 14px;
+	font-style: italic;
+	font-weight: 550;
+}
+
+.date {
+	color: rgba(0, 0, 0, 0.7);
+	font-size: 14px;
+	font-weight: 350;
+}
+
+.para {
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 1.5em;
+	letter-spacing: .2px;
+	font-family: Raleway, sans-serif;
+
+
+
+}
+
+/*---------------------------------------------------------------- footer css ----------------------------------------*/
+footer {
+	background-color: #172146;
+	padding: 20px 8%;
+	/* margin-bottom: 5px; */
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	margin-top: 30px;
+}
+
+#footerdata {
+	display: inline-flex;
+	margin-right: 150px;
+	margin-bottom: 15px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+span{
+	font-size: 24px;
+	font-weight: 500;
+	color: hsla(0,0%,100%,.5);
+	text-align: start;
+}
+span >div {
+	color: #eee9e9;
+}
+
+#footerContent {
+	font-size: 14px;
+	margin-top: 20px;
+	/* margin-right: 20px; */
+	text-align: start;
+
+}
